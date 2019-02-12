@@ -1,4 +1,12 @@
 
+## Test run
+
+```bash
+cd php
+
+docker run --rm -it -v $PWD/src:/app -w /app php:7.3.2-cli-alpine3.8 php texttest_fixture.php
+```
+
 ## Set up development enviroment
 
 ```bash
